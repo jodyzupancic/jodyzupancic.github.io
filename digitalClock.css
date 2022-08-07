@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  animation: bgcolor infinite 20s;
+
+}
+
+.clock {
+  background: #333322;
+  width: 550px;
+  padding: 10px;
+  border: 5px solid black;
+  box-shadow: 10px 5px red;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 40px;
+  font-family: 'Press Start 2P', cursive;
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+.clock-time {
+  font-size: 100px;
+}
+
+.clock-ampm {
+  font-size: 44px;
+  color: #000000;
+}
+
